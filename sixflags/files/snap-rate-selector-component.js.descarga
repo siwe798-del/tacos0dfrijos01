@@ -1,0 +1,2 @@
+!function(){"use strict";angular.module("components").component("snapRateSelector",{bindings:{customerTypes:"<",isTimed:"<?",onCustomerTypeChanged:"&",packageId:"<",prices:"<?",selectedDate:"<?"},controller:"SnapRateSelectorComponentController",controllerAs:"vm",templateUrl:"scripts/components/snap-rate-selector/snap-rate-selector-component.html"})}();
+//# sourceMappingURL=snap-rate-selector-component.js.map

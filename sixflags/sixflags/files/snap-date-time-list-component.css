@@ -1,0 +1,54 @@
+.snap-dt-list {
+  width: 100%;
+  display: flex;
+}
+.snap-dt-list--group {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+.snap-dt-list--no-avail {
+  padding-left: 0px 16px;
+}
+.snap-dt-list--limited,
+.snap-dt-list--cheapest {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.snap-dt-list--limited {
+  color: #F58025;
+  font-size: 14px;
+}
+.snap-dt-list--cheapest {
+  background-color: #DCEDD6;
+  color: #135e13;
+  font-weight: bold;
+  border-radius: 50%;
+}
+.snap-dt-list--item {
+  font-size: 16px;
+  align-items: center;
+  width: 100%;
+  min-height: 56px;
+  clear: both;
+  padding: 0 18px;
+}
+.snap-dt-list--item + .snap-dt-list--item {
+  border-top: 1px solid #CCC;
+}
+.snap-dt-list--item + .snap-dt-list--item:last-child {
+  border-bottom: 1px solid #CCC;
+}
+.snap-dt-list--disabled {
+  color: #BABABA;
+}
+.snap-dt-list--check {
+  width: 15px;
+  height: 15px;
+}
+.snap-dt-list--date {
+  flex: 1 1 auto;
+}

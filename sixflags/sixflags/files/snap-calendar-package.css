@@ -1,0 +1,206 @@
+.snap-cal-pkg {
+  /*****************
+	 * TABLET STYLES *
+	 ****************/
+}
+.snap-cal-pkg--header {
+  order: 1;
+  background: #FFF;
+  padding: 0 16px 16px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #c6c6c6;
+}
+.snap-cal-pkg--header-title {
+  font-family: font-semi-bold;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 19px;
+}
+.snap-cal-pkg--header-title.hidden-xs + * {
+  margin-top: 0;
+}
+.snap-cal-pkg--selector-wrap {
+  display: block;
+}
+.snap-cal-pkg--selector-labels {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  font-size: 12px;
+  color: #474747;
+  padding-bottom: 4px;
+}
+.snap-cal-pkg--selector-labels_date {
+  flex: 60%;
+}
+.snap-cal-pkg--selector-labels_time {
+  flex: 40%;
+  padding-left: 20px;
+}
+.snap-cal-pkg--content {
+  order: 2;
+}
+.snap-cal-pkg--main {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.snap-cal-pkg--exceeds {
+  margin: 0 16px;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+}
+.snap-cal-pkg--exceeds .icon-limited {
+  font-size: 18px;
+  margin-top: 2px;
+}
+.snap-cal-pkg--navigate-left {
+  background-color: #FFF;
+  padding: 16px;
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: font-semi-bold;
+  color: #0061c5;
+  letter-spacing: 0.15px;
+}
+.snap-cal-pkg--wrap {
+  display: flex;
+  flex-direction: column;
+}
+.snap-cal-pkg--wrap .snap-pkg-details--quicksell:not(:last-child) {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.snap-cal-pkg--wrap .snap-pkg-details--quicksell + .snap-pkg-details--quicksell {
+  border-top: 0;
+}
+.snap-cal-pkg--selected {
+  order: 3;
+  margin-top: auto;
+  border-top: 1px solid #c6c6c6;
+  background-color: #FFF;
+  padding: 16px 16px 0;
+}
+.snap-cal-pkg--selected-wrap {
+  padding-right: 16px;
+}
+.snap-cal-pkg--selected-wrap-separator {
+  border-bottom: 1px solid #c6c6c6;
+}
+.snap-cal-pkg--selected-rate {
+  padding-bottom: 8px;
+}
+.snap-cal-pkg--selected + .snap-cal-pkg--action {
+  border-top: 0;
+}
+.snap-cal-pkg--selected-savings {
+  font-size: 14px;
+  font-family: font-semi-bold;
+  margin-top: 16px;
+  padding-right: 12px;
+}
+.snap-cal-pkg--selected-savings-calc {
+  padding: 4px 8px;
+  border-radius: 100px;
+  color: #238D1B;
+  background-color: #DCEDDB;
+}
+.snap-cal-pkg--action {
+  width: 100%;
+  min-height: 68px;
+  padding: 16px;
+  background-color: #FFF;
+}
+.snap-cal-pkg--action.is-sticky {
+  background-color: transparent;
+}
+.snap-cal-pkg--action.--sticky-white-bg {
+  background-color: #FFF;
+}
+.snap-cal-pkg--action.--sticky-white-bg.is-sticky {
+  border-top: 1px solid #c6c6c6;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.12);
+}
+.snap-cal-pkg--action-atc {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+@media (min-width: 768px) {
+  .snap-cal-pkg--navigate-left {
+    background-color: transparent;
+  }
+  .snap-cal-pkg--exceeds {
+    margin: auto 0 0 0;
+    text-align: justify;
+  }
+  .snap-cal-pkg--header {
+    order: none;
+    margin: 0;
+    background: transparent;
+    padding: 0;
+    min-width: 304px;
+    max-width: 304px;
+  }
+  .snap-cal-pkg--header-bg {
+    height: 100%;
+    background-color: #FFF;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    padding: 24px 16px 16px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  .snap-cal-pkg--header-title.hidden-xs + * {
+    margin-top: inherit;
+  }
+  .snap-cal-pkg--selected {
+    order: none;
+    margin-top: auto;
+    padding: 0;
+    border: 0;
+  }
+  .snap-cal-pkg--selected-wrap {
+    padding: 0;
+  }
+  .snap-cal-pkg--selected-savings {
+    padding-right: 0;
+  }
+  .snap-cal-pkg--wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .snap-cal-pkg--main {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+    gap: 16px;
+    margin: 0 16px 16px 16px;
+    height: calc(100% - 70px);
+  }
+  .snap-cal-pkg--main .snap-pkg-details {
+    border: 0;
+  }
+  .snap-cal-pkg--content {
+    order: none;
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    margin-bottom: 0;
+    padding: 24px 16px 16px 16px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  .snap-cal-pkg--action {
+    padding: 0;
+    border: 0;
+    min-height: auto;
+  }
+  .snap-cal-pkg--action-group {
+    margin-top: auto;
+  }
+}

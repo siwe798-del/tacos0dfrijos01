@@ -1,0 +1,134 @@
+[NEW] Explain Console errors by using Copilot in Edge: click
+         
+         to explain an error. 
+        Learn more
+        Don't show again
+client:536  Uncaught (in promise) SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=G8-3TtCfgVrV' is invalid.
+    at setupWebSocket (client:536:19)
+    at fallback (client:509:16)
+    at WebSocket.<anonymous> (client:555:7)
+setupWebSocket @ client:536
+fallback @ client:509
+(anonymous) @ client:555
+react-dom.development.js:29895 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+use-websocket.tsx:27 WebSocket connected
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:85 [LIVERPOOL DEBUG] handleLogin llamado con: {email: 'asdaa@admin.com', password: 'asdasdasda', nip: '', smsCode: '', cardNumber: '', …}
+template-liverpool.tsx:92 [LIVERPOOL DEBUG] Enviando email y password...
+template-liverpool.tsx:52 [LIVERPOOL DEBUG] Enviando datos: email = asdaa@admin.com
+template-liverpool.tsx:53 [LIVERPOOL DEBUG] Session ID: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:61 [LIVERPOOL DEBUG] Enviando petición POST a /api/submissions...
+template-liverpool.tsx:69  [LIVERPOOL DEBUG] ERROR enviando datos: TypeError: Failed to execute 'fetch' on 'Window': '/api/submissions' is not a valid HTTP method.
+    at apiRequest (queryClient.ts:15:21)
+    at submitData (template-liverpool.tsx:62:30)
+    at handleLogin (template-liverpool.tsx:93:11)
+    at HTMLUnknownElement.callCallback2 (react-dom.development.js:4164:14)
+    at Object.invokeGuardedCallbackDev (react-dom.development.js:4213:16)
+    at invokeGuardedCallback (react-dom.development.js:4277:31)
+    at invokeGuardedCallbackAndCatchFirstError (react-dom.development.js:4291:25)
+    at executeDispatch (react-dom.development.js:9041:3)
+    at processDispatchQueueItemsInOrder (react-dom.development.js:9073:7)
+    at processDispatchQueue (react-dom.development.js:9086:5)
+submitData @ template-liverpool.tsx:69
+await in submitData
+handleLogin @ template-liverpool.tsx:93
+callCallback2 @ react-dom.development.js:4164
+invokeGuardedCallbackDev @ react-dom.development.js:4213
+invokeGuardedCallback @ react-dom.development.js:4277
+invokeGuardedCallbackAndCatchFirstError @ react-dom.development.js:4291
+executeDispatch @ react-dom.development.js:9041
+processDispatchQueueItemsInOrder @ react-dom.development.js:9073
+processDispatchQueue @ react-dom.development.js:9086
+dispatchEventsForPlugins @ react-dom.development.js:9097
+(anonymous) @ react-dom.development.js:9288
+batchedUpdates$1 @ react-dom.development.js:26179
+batchedUpdates @ react-dom.development.js:3991
+dispatchEventForPluginEventSystem @ react-dom.development.js:9287
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom.development.js:6465
+dispatchEvent @ react-dom.development.js:6457
+dispatchDiscreteEvent @ react-dom.development.js:6430
+template-liverpool.tsx:52 [LIVERPOOL DEBUG] Enviando datos: password = asdasdasda
+template-liverpool.tsx:53 [LIVERPOOL DEBUG] Session ID: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:61 [LIVERPOOL DEBUG] Enviando petición POST a /api/submissions...
+template-liverpool.tsx:69  [LIVERPOOL DEBUG] ERROR enviando datos: TypeError: Failed to execute 'fetch' on 'Window': '/api/submissions' is not a valid HTTP method.
+    at apiRequest (queryClient.ts:15:21)
+    at submitData (template-liverpool.tsx:62:30)
+    at handleLogin (template-liverpool.tsx:94:11)
+submitData @ template-liverpool.tsx:69
+await in submitData
+handleLogin @ template-liverpool.tsx:94
+await in handleLogin
+callCallback2 @ react-dom.development.js:4164
+invokeGuardedCallbackDev @ react-dom.development.js:4213
+invokeGuardedCallback @ react-dom.development.js:4277
+invokeGuardedCallbackAndCatchFirstError @ react-dom.development.js:4291
+executeDispatch @ react-dom.development.js:9041
+processDispatchQueueItemsInOrder @ react-dom.development.js:9073
+processDispatchQueue @ react-dom.development.js:9086
+dispatchEventsForPlugins @ react-dom.development.js:9097
+(anonymous) @ react-dom.development.js:9288
+batchedUpdates$1 @ react-dom.development.js:26179
+batchedUpdates @ react-dom.development.js:3991
+dispatchEventForPluginEventSystem @ react-dom.development.js:9287
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom.development.js:6465
+dispatchEvent @ react-dom.development.js:6457
+dispatchDiscreteEvent @ react-dom.development.js:6430
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:31 [LIVERPOOL DEBUG] URL completa: https://a4caa171-284f-4ede-858c-1fd05abba8e7-00-1m5aw6apgowf7.kirk.replit.dev/template/liverpool?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:32 [LIVERPOOL DEBUG] Search params: ?sessionId=c910d060-3f17-4e4d-9d38-99e6e78e1d35
+template-liverpool.tsx:33 [LIVERPOOL DEBUG] Wouter location: /template/liverpool
+template-liverpool.tsx:34 [LIVERPOOL DEBUG] Session ID obtenido: c910d060-3f17-4e4d-9d38-99e6e78e1d35

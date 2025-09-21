@@ -1,0 +1,152 @@
+.snap-rate-sel {
+  width: 100%;
+}
+.snap-rate-sel .icon-user {
+  color: #0061C5;
+}
+.snap-rate-sel--container-total {
+  display: flex;
+  border: 1px #0061C5 solid;
+}
+.snap-rate-sel--container-total .icon-user {
+  color: #fff;
+}
+.snap-rate-sel--container-total .container-icon {
+  background-color: #0061C5;
+}
+.snap-rate-sel--sub {
+  font-size: 14px;
+}
+.snap-rate-sel--icon {
+  display: flex;
+  width: 44px;
+  min-width: 44px;
+  max-width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+  border-right: 1px solid #CCC;
+  font-size: 18px;
+}
+.snap-rate-sel--selected {
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 4px;
+  font-size: 16px;
+  width: 100%;
+}
+.snap-rate-sel--selected customer-quantity {
+  margin-left: auto;
+  min-width: 105px;
+}
+.snap-rate-sel--calendar {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  height: 44px;
+  font-size: 16px;
+}
+.snap-rate-sel--calendar-selected {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-left: 8px;
+}
+.snap-rate-sel--calendar-selected-date {
+  flex: 60%;
+}
+.snap-rate-sel--calendar-selected-time {
+  flex: 40%;
+  border-left: 1px solid #CCC;
+  padding-left: 8px;
+}
+.snap-rate-sel--calendar-icon {
+  display: flex;
+  width: 44px;
+  justify-content: center;
+}
+.snap-rate-sel--calendar-img {
+  width: 18px;
+  height: 20px;
+}
+.snap-rate-sel--expanded {
+  position: fixed;
+  top: 45px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1038;
+}
+.snap-rate-sel--expanded-rate-notice {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  text-align: left;
+}
+.snap-rate-sel--expanded-content {
+  padding: 16px 16px 76px 16px;
+  position: fixed;
+  top: 45px;
+  right: 0px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFF;
+}
+.snap-rate-sel--rate {
+  align-items: center;
+}
+.snap-rate-sel--rate customer-quantity {
+  margin-left: auto;
+}
+@supports not(selector(:first-child)) {
+  .snap-rate-sel--rate customer-quantity {
+    flex-grow: 1;
+    text-align: right;
+  }
+}
+.snap-rate-sel--action {
+  position: fixed;
+  min-height: 68px;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.12);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFF;
+  padding: 16px;
+}
+@media (min-width: 768px) {
+  .snap-rate-sel--expanded-content {
+    align-items: center;
+  }
+  .snap-rate-sel--expanded-wrap {
+    width: 400px;
+  }
+  .snap-rate-sel--title {
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 19px;
+  }
+  .snap-rate-sel--type {
+    font-family: font-semi-bold;
+  }
+  .snap-rate-sel--action {
+    box-shadow: none;
+    text-align: right;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .snap-rate-sel--action .btn {
+    min-width: 125px;
+    width: auto;
+  }
+}
+#ctExpandedView {
+  display: flex;
+  border: 1px solid #CCC;
+}

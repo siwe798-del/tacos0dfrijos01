@@ -1,0 +1,215 @@
+.snap-cal-sel {
+  width: 100%;
+  display: flex;
+  border: 1px solid #BABABA;
+  flex-direction: row;
+  /*****************
+	 * TABLET STYLES *
+	 ****************/
+}
+.snap-cal-sel .icon-cal {
+  color: #0061C5;
+}
+.snap-cal-sel--legend {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+.snap-cal-sel--dynamic {
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+.snap-cal-sel--dynamic .icon-info-outline {
+  font-size: 20px;
+}
+.snap-cal-sel--dynamic--text {
+  font-size: 12px;
+  font-weight: 400;
+}
+.snap-cal-sel--calendar {
+  background: #FFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+  padding: 18px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.snap-cal-sel--calendar > accesso-calendar {
+  width: 100%;
+}
+.snap-cal-sel--error {
+  border-color: red;
+}
+.snap-cal-sel--error .snap-cal-sel--icon {
+  background-color: red;
+}
+.snap-cal-sel--error .icon-cal {
+  color: #FFF;
+}
+.snap-cal-sel--icon {
+  display: flex;
+  width: 44px;
+  min-width: 44px;
+  max-width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+  border-right: 1px solid #BABABA;
+  font-size: 18px;
+}
+.snap-cal-sel--selected {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-left: 8px;
+  font-size: 16px;
+}
+.snap-cal-sel--selected-date {
+  flex: 60%;
+}
+.snap-cal-sel--selected-time {
+  flex: 40%;
+  border-left: 1px solid #CCC;
+  padding-left: 8px;
+}
+.snap-cal-sel--expanded {
+  position: fixed;
+  top: 45px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 2;
+}
+.snap-cal-sel--expanded-content {
+  position: fixed;
+  top: 45px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #EFEFF3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.snap-cal-sel--expanded-wrap {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.snap-cal-sel--list {
+  margin-bottom: auto;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.snap-cal-sel--action {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.12);
+  background-color: #FFF;
+  padding: 16px;
+}
+.snap-cal-sel .snap-dt-list--soldOut {
+  display: none;
+}
+.snap-cal-sel .snap-dt-list--soldOut_icon {
+  color: #BABABA;
+  width: 20px;
+  height: 20px;
+}
+.snap-cal-sel .snap-dt-list--soldOut + * {
+  margin-left: 0;
+}
+@media (min-width: 768px) {
+  .snap-cal-sel--expanded-wrap {
+    display: flex;
+    flex-direction: row;
+    background: #FFF;
+  }
+  .snap-cal-sel--expanded-wrap_dateOnly {
+    width: 100%;
+  }
+  .snap-cal-sel--expanded-content {
+    background-color: #FFF;
+    justify-content: unset;
+  }
+  .snap-cal-sel--expanded-content_dateOnly {
+    flex-direction: row;
+  }
+  .snap-cal-sel--calendar {
+    box-shadow: none;
+    left: 16px;
+    top: 68px;
+    padding-bottom: 0;
+  }
+  .snap-cal-sel--list {
+    width: 33%;
+    height: 77vh;
+    overflow-y: scroll;
+    margin: 16px 16px 24px 0;
+    background: #FFF;
+    border: 1px solid #BABABA;
+    border-radius: 5px;
+  }
+  .snap-cal-sel--list_dateOnly {
+    display: none;
+  }
+  .snap-cal-sel--action {
+    justify-content: space-between;
+    flex-direction: row;
+    box-shadow: none;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 24px;
+  }
+  .snap-cal-sel--action .btn {
+    min-width: 125px;
+  }
+  .snap-cal-sel--action_dateOnly {
+    flex-direction: column;
+    padding-top: 24px;
+    padding-left: 16px;
+  }
+  .snap-cal-sel--dynamic {
+    width: fit-content;
+    max-width: 323px;
+    height: 32px;
+  }
+  .snap-cal-sel--dynamic_dateOnly {
+    max-width: 304px;
+    flex: none !important;
+  }
+  .snap-cal-sel--dynamic.gap-8.gap-row {
+    flex: auto;
+  }
+  .snap-cal-sel--legend {
+    flex-wrap: nowrap;
+    min-width: 380px;
+  }
+  .snap-cal-sel--legend.gap-md-24.gap-row {
+    flex: auto;
+  }
+  .snap-cal-sel--legend_dateOnly {
+    flex-direction: column;
+    align-items: start;
+    min-width: auto;
+  }
+  .snap-cal-sel--legend.--no-limited {
+    min-width: auto;
+  }
+  .snap-cal-sel--btn_dateOnly {
+    display: flex;
+    justify-content: end;
+  }
+  .snap-cal-sel .snap-dt-list--soldOut {
+    display: flex;
+  }
+}

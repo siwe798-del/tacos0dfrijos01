@@ -1,0 +1,106 @@
+.snap-pkg-details {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  clear: both;
+  padding: 16px;
+  min-height: 84px;
+  background-color: #FFF;
+  border-top: 1px solid #C6C6C6;
+  border-bottom: 1px solid #C6C6C6;
+  margin-bottom: 8px;
+}
+.snap-pkg-details--icon {
+  font-size: 16px;
+  margin-top: 8px;
+  margin-right: 4px;
+}
+.snap-pkg-details--img img {
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+}
+.snap-pkg-details--header-title {
+  font-family: font-semi-bold;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 8px;
+}
+.snap-pkg-details--header.--quicksell .--quicksell-header {
+  display: inherit;
+  font-family: font-semi-bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.snap-pkg-details--header.--quicksell .--title-header {
+  font-size: 20px;
+  font-family: inherit;
+  line-height: 19px;
+}
+.snap-pkg-details--header.--quicksell.hidden-xs + * {
+  margin-top: 0;
+}
+.snap-pkg-details--headline {
+  font-size: 13px;
+  line-height: 15px;
+  color: #4E4E4E;
+}
+.snap-pkg-details--desc {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.snap-pkg-details--desc ul {
+  padding-inline-start: 20px;
+}
+.snap-pkg-details--customer {
+  font-family: font-semi-bold;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+.snap-pkg-details--customer-gate {
+  font-size: 12px;
+  color: #4E4E4E;
+}
+.snap-pkg-details--customer-gate-price {
+  font-size: 16px;
+  text-decoration-line: line-through;
+  letter-spacing: 0.15px;
+  padding-left: 8px;
+  color: #676767;
+}
+.snap-pkg-details--customer-online {
+  font-size: 12px;
+}
+.snap-pkg-details--customer-online-price {
+  font-size: 16px;
+  letter-spacing: 0.15px;
+  padding-left: 8px;
+}
+@media (min-width: 768px) {
+  .snap-pkg-details {
+    padding: 0;
+    border: 0;
+    margin-bottom: 24px;
+  }
+  .snap-pkg-details .--quicksell-wrapper {
+    padding: 16px;
+    margin-top: 16px;
+    border: 1px solid #C6C6C6;
+  }
+  .snap-pkg-details--img img {
+    width: 310px;
+  }
+  .snap-pkg-details--quicksell {
+    margin-bottom: 0;
+  }
+  .snap-pkg-details--header.--quicksell .--title-header {
+    margin-bottom: 0;
+  }
+  .snap-pkg-details--header.hidden-xs + * {
+    margin-top: inherit;
+  }
+  .snap-pkg-details--customer {
+    padding-left: 8px;
+  }
+}

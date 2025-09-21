@@ -1,0 +1,104 @@
+=====================================================
+🪟 NEMESIS - INSTRUCCIONES ESPECÍFICAS PARA WINDOWS
+=====================================================
+
+✅ PROBLEMA SOLUCIONADO: Windows no reconoce NODE_ENV=development
+
+🚀 OPCIONES PARA EJECUTAR EN WINDOWS:
+
+-----------------------------------------------------
+OPCIÓN 1: Usando cross-env (RECOMENDADO)
+-----------------------------------------------------
+./run-dev.bat
+./run-dev.cmd
+./start-windows.bat
+
+Estos scripts usan 'cross-env' que ya está instalado
+y funciona en cualquier versión de Windows.
+
+-----------------------------------------------------
+OPCIÓN 2: Script simple (SIN VARIABLES DE ENTORNO)
+-----------------------------------------------------
+./dev-simple.bat
+
+Este script funciona directamente sin configurar
+variables de entorno - usa valores por defecto.
+
+-----------------------------------------------------
+OPCIÓN 3: PowerShell
+-----------------------------------------------------
+./start-windows.ps1
+
+Para usuarios que prefieren PowerShell con interfaz
+más moderna y colorida.
+
+-----------------------------------------------------
+OPCIÓN 4: Comando directo
+-----------------------------------------------------
+npx cross-env NODE_ENV=development tsx server/index.ts
+
+O simplemente:
+tsx server/index.ts
+
+=====================================================
+🔧 INSTALACIÓN COMPLETA PASO A PASO:
+=====================================================
+
+1. 📁 Descarga nemesis-env-template.txt
+2. 📝 Renómbralo a .env (sin .txt)
+3. 📂 Colócalo en la raíz del proyecto
+4. 💿 Instala dependencias:
+   npm install
+
+5. 🚀 Ejecuta cualquiera de estos comandos:
+   
+   FÁCIL:     ./run-dev.bat
+   SIMPLE:    ./dev-simple.bat  
+   MODERNO:   ./start-windows.ps1
+   DIRECTO:   npx cross-env NODE_ENV=development tsx server/index.ts
+
+=====================================================
+🎯 RESULTADOS ESPERADOS:
+=====================================================
+
+✅ Puerto 5000 funcionando
+✅ Base de datos conectada
+✅ WebSocket activo
+✅ Admin user creado
+✅ Panel disponible en http://localhost:5000
+
+📊 Logs que verás:
+- Configuration validated successfully
+- Database Host: tu-servidor-neon
+- ✅ Conexión a la base de datos establecida
+- serving on port 5000
+
+=====================================================
+🛠️ SOLUCIÓN DE PROBLEMAS:
+=====================================================
+
+❌ "NODE_ENV is not recognized"
+✅ SOLUCIÓN: Usa ./run-dev.bat o ./dev-simple.bat
+
+❌ "tsx is not recognized"  
+✅ SOLUCIÓN: npm install tsx
+
+❌ "cross-env is not recognized"
+✅ SOLUCIÓN: npm install cross-env
+
+❌ "Database connection failed"
+✅ SOLUCIÓN: Verifica tu .env con la URL correcta
+
+=====================================================
+📱 CONTACTO Y SOPORTE:
+=====================================================
+
+Si ninguna opción funciona:
+1. Verifica que tienes Node.js instalado
+2. Ejecuta: npm install
+3. Usa el script más simple: ./dev-simple.bat
+
+🎯 ESTADO: ✅ 100% compatible con Windows
+🔄 VERSIÓN: 2.0 - Optimizada para Windows
+📅 ACTUALIZADO: Septiembre 2025
+=====================================================

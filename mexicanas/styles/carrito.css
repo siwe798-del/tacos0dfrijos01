@@ -1,0 +1,283 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.cart-container {
+    margin-top: 30px;
+}
+
+.cart-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cart-item-details {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.cart-item-details h5 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.cart-item-details p {
+    margin: 0;
+    color: #777;
+}
+
+.cart-item-price {
+    text-align: right;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.cart-item-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-item-actions a {
+    margin-left: 10px;
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+.cart-total {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: right;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cart-total span {
+    color: #e74c3c;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.payment-options button {
+    width: 32%;
+    border: none;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-card {
+    background-color: #3498db;
+}
+
+.btn-oxxo {
+    background-color: #e67e22;
+}
+
+.btn-bank {
+    background-color: #2ecc71;
+}
+
+.btn-card:hover {
+    background-color: #2980b9;
+}
+
+.btn-oxxo:hover {
+    background-color: #d35400;
+}
+
+.btn-bank:hover {
+    background-color: #27ae60;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .cart-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cart-item-details {
+        margin: 20px 0;
+    }
+
+    .cart-total {
+        font-size: 1.2rem;
+    }
+
+    .payment-options button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+.payment-options {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap; /* Permite que las opciones se envuelvan en pantallas pequeñas */
+margin-bottom: 30px;
+}
+
+.payment-option {
+flex: 1;
+text-align: center;
+margin: 0 10px;
+max-width: 150px; /* Tamaño máximo de cada opción */
+box-sizing: border-box; /* Incluye padding y border en el ancho y alto */
+}
+
+.payment-option a {
+display: block;
+text-decoration: none;
+color: #343a40;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+padding: 10px;
+}
+
+.payment-option img {
+max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+height: auto; /* Mantiene la proporción de la imagen */
+border-radius: 8px;
+display: block;
+margin: 0 auto;
+}
+
+.payment-option span {
+display: block;
+margin-top: 10px;
+font-size: 1rem;
+font-weight: bold;
+}
+
+.payment-option a:hover {
+transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+.payment-option {
+max-width: 100%; /* Permite que los botones ocupen el ancho completo en pantallas pequeñas */
+margin-bottom: 20px; /* Espacio entre los botones en pantallas pequeñas */
+}
+}
+
+/* Asegúrate de que el HTML y el body ocupen todo el alto de la ventana del navegador */
+html, body {
+height: 100%;
+margin: 0;
+}
+
+/* Envuelve el contenido y el footer */
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100vh; /* Asegura que la wrapper ocupe al menos el 100% de la altura de la ventana */
+}
+
+/* Contenido principal de la página */
+.content {
+flex: 1; /* Permite que el contenido principal ocupe el espacio restante */
+}
+
+/* Estilos para el footer */
+footer {
+background-color: #343a40;
+color: white;
+text-align: center;
+padding: 1rem 0;
+width: 100%;
+}
+
+/* Ajustes de texto para asegurar la legibilidad en dispositivos móviles */
+footer p {
+margin: 0;
+font-size: 0.9rem;
+}
+
+/* Estilos adicionales para hacer el footer más responsivo en pantallas más pequeñas */
+@media (max-width: 768px) {
+footer p {
+font-size: 0.8rem;
+}
+}
+/* Asegura que la barra de navegación tenga un buen diseño */
+.navbar {
+    padding: 0.5rem 1rem;
+    background-color: #343a40; /* Color de fondo oscuro */
+}
+
+/* Estilo para el logo */
+.navbar-brand .logo {
+    max-height: 50px; /* Ajusta la altura máxima del logo */
+    width: auto; /* Mantiene la proporción del logo */
+}
+
+/* Ajustes para los enlaces de navegación */
+.nav-link {
+    color: #f8f9fa !important; /* Color del texto de los enlaces */
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #e9ecef !important; /* Color del texto al pasar el mouse */
+}
+
+/* Ajustes para el botón del carrito */
+.btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.btn-outline-light:hover {
+    background-color: #f8f9fa;
+    color: #343a40;
+    border-color: #343a40;
+}
+
+/* Hacer que el navbar sea responsivo */
+@media (max-width: 768px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}

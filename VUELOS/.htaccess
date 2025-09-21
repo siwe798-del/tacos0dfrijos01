@@ -1,0 +1,15 @@
+# Evitar listado de directorios
+Options -Indexes
+
+# Bloquear acceso directo a las carpetas, pero permitir acceso a archivos
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Bloquear acceso directo a directorios
+    RewriteRule ^(assets|css|js|js2|php)/$ - [F,L]
+
+    # Permitir acceso a archivos CSS, JS e imágenes
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule . - [F,L]
+</IfModule>

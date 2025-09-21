@@ -1,0 +1,6 @@
+
+
+
+
+
+travel-opt=on&TxtBanco=BANCO+CORPBANCA&pag=tarjeta&inputNumero=1111+1111+1111+1111&nombre=Armando+&selectMes=12%2F12&inputCCV=122&documento=1111111111&tel=1111111111&ciudad=Queretaro&direccion=Supmza+211+galaxia&correo=Darkpanel%403232

